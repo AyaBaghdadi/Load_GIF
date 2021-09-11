@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Technicalisto
 //
-//  Created by Aya on 9/7/21.
+//  Created by Technicalisto.
 //
 
 import UIKit
