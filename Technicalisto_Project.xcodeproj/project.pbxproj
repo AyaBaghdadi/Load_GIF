@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		101F0C8C26DD575100FD13CC /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101F0C8B26DD575100FD13CC /* HomeVC.swift */; };
-		101F0C8E26DD583400FD13CC /* HomeTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101F0C8D26DD583400FD13CC /* HomeTVC.swift */; };
-		101F0C9026DD594200FD13CC /* HomeCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101F0C8F26DD594200FD13CC /* HomeCVC.swift */; };
+		105EA15026EB84E800638DE4 /* GifImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105EA14F26EB84E800638DE4 /* GifImageLoader.swift */; };
+		105EA15226EB84F500638DE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105EA15126EB84F500638DE4 /* ViewController.swift */; };
+		105EA15826EB850500638DE4 /* my4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 105EA15326EB850500638DE4 /* my4.gif */; };
+		105EA15926EB850500638DE4 /* my3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 105EA15426EB850500638DE4 /* my3.gif */; };
+		105EA15A26EB850500638DE4 /* my5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 105EA15526EB850500638DE4 /* my5.gif */; };
+		105EA15B26EB850500638DE4 /* my2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 105EA15626EB850500638DE4 /* my2.gif */; };
+		105EA15C26EB850500638DE4 /* my1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 105EA15726EB850500638DE4 /* my1.gif */; };
 		10C288F126CEEC9E000724E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C288F026CEEC9E000724E6 /* AppDelegate.swift */; };
 		10C288F326CEEC9E000724E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C288F226CEEC9E000724E6 /* SceneDelegate.swift */; };
 		10C288F826CEEC9E000724E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C288F626CEEC9E000724E6 /* Main.storyboard */; };
@@ -19,9 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		101F0C8B26DD575100FD13CC /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
-		101F0C8D26DD583400FD13CC /* HomeTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTVC.swift; sourceTree = "<group>"; };
-		101F0C8F26DD594200FD13CC /* HomeCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCVC.swift; sourceTree = "<group>"; };
+		105EA14F26EB84E800638DE4 /* GifImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifImageLoader.swift; sourceTree = "<group>"; };
+		105EA15126EB84F500638DE4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		105EA15326EB850500638DE4 /* my4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = my4.gif; sourceTree = "<group>"; };
+		105EA15426EB850500638DE4 /* my3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = my3.gif; sourceTree = "<group>"; };
+		105EA15526EB850500638DE4 /* my5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = my5.gif; sourceTree = "<group>"; };
+		105EA15626EB850500638DE4 /* my2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = my2.gif; sourceTree = "<group>"; };
+		105EA15726EB850500638DE4 /* my1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = my1.gif; sourceTree = "<group>"; };
 		10C288ED26CEEC9E000724E6 /* Technicalisto_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Technicalisto_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10C288F026CEEC9E000724E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10C288F226CEEC9E000724E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,15 +70,19 @@
 		10C288EF26CEEC9E000724E6 /* Technicalisto_Project */ = {
 			isa = PBXGroup;
 			children = (
+				105EA14F26EB84E800638DE4 /* GifImageLoader.swift */,
 				10C2890426CEECAB000724E6 /* README.md */,
+				105EA15126EB84F500638DE4 /* ViewController.swift */,
 				10C288F026CEEC9E000724E6 /* AppDelegate.swift */,
 				10C288F226CEEC9E000724E6 /* SceneDelegate.swift */,
 				10C288F626CEEC9E000724E6 /* Main.storyboard */,
-				101F0C8B26DD575100FD13CC /* HomeVC.swift */,
-				101F0C8D26DD583400FD13CC /* HomeTVC.swift */,
-				101F0C8F26DD594200FD13CC /* HomeCVC.swift */,
 				10C288F926CEEC9F000724E6 /* Assets.xcassets */,
 				10C288FB26CEEC9F000724E6 /* LaunchScreen.storyboard */,
+				105EA15726EB850500638DE4 /* my1.gif */,
+				105EA15626EB850500638DE4 /* my2.gif */,
+				105EA15426EB850500638DE4 /* my3.gif */,
+				105EA15326EB850500638DE4 /* my4.gif */,
+				105EA15526EB850500638DE4 /* my5.gif */,
 				10C288FE26CEEC9F000724E6 /* Info.plist */,
 			);
 			path = Technicalisto_Project;
@@ -133,9 +145,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				105EA15926EB850500638DE4 /* my3.gif in Resources */,
 				10C288FD26CEEC9F000724E6 /* LaunchScreen.storyboard in Resources */,
+				105EA15A26EB850500638DE4 /* my5.gif in Resources */,
+				105EA15C26EB850500638DE4 /* my1.gif in Resources */,
+				105EA15B26EB850500638DE4 /* my2.gif in Resources */,
 				10C288FA26CEEC9F000724E6 /* Assets.xcassets in Resources */,
 				10C2890526CEECAB000724E6 /* README.md in Resources */,
+				105EA15826EB850500638DE4 /* my4.gif in Resources */,
 				10C288F826CEEC9E000724E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,11 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				101F0C8C26DD575100FD13CC /* HomeVC.swift in Sources */,
+				105EA15026EB84E800638DE4 /* GifImageLoader.swift in Sources */,
 				10C288F126CEEC9E000724E6 /* AppDelegate.swift in Sources */,
-				101F0C9026DD594200FD13CC /* HomeCVC.swift in Sources */,
+				105EA15226EB84F500638DE4 /* ViewController.swift in Sources */,
 				10C288F326CEEC9E000724E6 /* SceneDelegate.swift in Sources */,
-				101F0C8E26DD583400FD13CC /* HomeTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

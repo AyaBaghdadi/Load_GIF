@@ -1,14 +1,20 @@
 
 # Technicalisto
 
-## How to create horizontal CollectionView inside TableViewCell
+## How to Load/Use Gif/Appear Image inside App
 
-1. Create your custom design as UITableView inside it add UITableViewCell inside it add your horizontal CollectionView.
+1. Add your UIViewController which want to gif appear inside it .
 
-2. Connect your Big tableview delegate to your viewController and send data with custom cell & reload collectionView after connect.
+2. Add Your Gif image in your project.
 
-3. in your custom TableViewCell add delegate of collectionView and send data to custom collectionViewCell.
+3. Add file named "GifImageLoader" in your project , Note : // This file is cpd .
 
+4. Add this lines in your viewController file with your Gif name : we can change in constraint
+
+let myGif = UIImage.t_gif(name: "my5")
+let imageView = UIImageView(image: myGif)
+imageView.frame = CGRect(x: self.view.center.x - (UIScreen.main.bounds.width / 2 ), y: self.view.center.y - ( imageView.bounds.height / 2) , width: UIScreen.main.bounds.width, height: imageView.bounds.height)
+view.addSubview(imageView)
 
 ### Thanks
 
